@@ -1,5 +1,8 @@
 package seedu.addressbook.data.person.address;
 
+/**
+ * Represents the block of an address
+ */
 public class Block {
 
     public final String block;
