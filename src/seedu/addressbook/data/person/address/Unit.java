@@ -5,7 +5,7 @@ package seedu.addressbook.data.person.address;
  */
 public class Unit {
 
-    private final String unit;
+    private String unit;
 
     public Unit(String unit) {
         this.unit = unit;
@@ -13,6 +13,10 @@ public class Unit {
 
     public String getUnit() {
         return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
     }
 
     @Override

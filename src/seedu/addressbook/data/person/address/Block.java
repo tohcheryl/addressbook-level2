@@ -5,7 +5,7 @@ package seedu.addressbook.data.person.address;
  */
 public class Block {
 
-    private final String block;
+    private String block;
 
     public Block(String block) {
         this.block = block;
@@ -13,6 +13,10 @@ public class Block {
 
     public String getBlock() {
         return block;
+    }
+
+    public void setBlock(String block) {
+        this.block = block;
     }
 
     @Override
