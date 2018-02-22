@@ -47,6 +47,9 @@ public class UtilsTest {
     @Test
     public void isAnyNull() throws Exception {
 
+        // No objects
+        assertHasNoNull();
+
         //  Given objects consist of null
         assertHasNull("a", null, "b");
         assertHasNull(null, null);
